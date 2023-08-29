@@ -8,7 +8,7 @@ from langchain.text_splitter import CharacterTextSplitter
 from langchain.document_loaders import PyPDFLoader
 import os
 from langchain.embeddings import HuggingFaceEmbeddings
-from CustomLibrary.TextGen import TextGen
+from TextGen import TextGen
 from langchain.vectorstores import Chroma
 from langchain.chains import RetrievalQA
 from langchain.prompts import PromptTemplate
